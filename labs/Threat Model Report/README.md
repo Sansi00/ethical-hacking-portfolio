@@ -1,17 +1,17 @@
-# 🛡️ Threat Model Report – Personal Computer
+# Threat Model Report – Personal Computer
 
 **Author:** Sansi Pokharel  
 **Date:** 09/21/2025  
 
 ---
 
-## 🧭 Objective
+## Objective
 The objective of this lab is to develop a threat model for my personal computer and identify ways to enhance its overall security.  
 This documentation includes an introduction to threat modeling, identification of assets, threats, and actors, risk assessment, and mitigation strategies.
 
 ---
 
-## 🔍 Introduction to Threat Modeling
+## Introduction to Threat Modeling
 
 Threat modeling is a **systematic process** of identifying threats, vulnerabilities, and risks associated with a system, and then designing measures to mitigate or manage them.  
 It plays a crucial role in maintaining the **CIA triad** — Confidentiality, Integrity, and Availability.
@@ -25,7 +25,7 @@ It plays a crucial role in maintaining the **CIA triad** — Confidentiality, In
 
 ---
 
-## 💻 Identifying Assets
+## Identifying Assets
 
 **System Overview:**
 - **Device:** Razer Blade (2019 Model)  
@@ -43,7 +43,7 @@ Each asset has varying sensitivity and requires **tailored protection** based on
 
 ---
 
-## 🧠 Identifying Threat Actors
+## Identifying Threat Actors
 
 Threat actors are entities capable of exploiting vulnerabilities.  
 For my system, the primary threat actors include:
@@ -63,7 +63,7 @@ For my system, the primary threat actors include:
 
 ---
 
-## ⚔️ Identifying Attack Vectors
+## Identifying Attack Vectors
 
 Attack vectors are the **pathways** used by threat actors to compromise a system.
 
@@ -80,7 +80,7 @@ Attack vectors are the **pathways** used by threat actors to compromise a system
 
 ---
 
-## ⚖️ Risk Assessment
+## Risk Assessment
 
 | **Threat** | **Likelihood** | **Impact** | **Overall Risk** |
 |-------------|----------------|-------------|------------------|
@@ -94,9 +94,9 @@ Attack vectors are the **pathways** used by threat actors to compromise a system
 
 ---
 
-## 🧩 Mitigation Strategies
+## Mitigation Strategies
 
-### 🛠️ Technical Controls
+### Technical Controls
 - Enable **Multi-Factor Authentication (MFA)** on all major accounts  
 - Use a **VPN** when on public or shared networks  
 - Encrypt sensitive files and use a **Password Manager**  
@@ -105,7 +105,7 @@ Attack vectors are the **pathways** used by threat actors to compromise a system
 - Perform **routine backups** to encrypted drives or cloud  
 - Use **BitLocker** for full-disk encryption  
 
-### 🧍 Behavioral Controls
+### Behavioral Controls
 - Avoid untrusted or pirated software downloads  
 - Verify links and attachments before clicking  
 - Don’t reuse passwords or share credentials  
@@ -114,7 +114,7 @@ Attack vectors are the **pathways** used by threat actors to compromise a system
 
 ---
 
-## 💡 Recommendations
+## Recommendations
 To strengthen long-term resilience:
 - Conduct **monthly vulnerability scans**  
 - Review system permissions and remove unnecessary software  
@@ -124,7 +124,7 @@ To strengthen long-term resilience:
 
 ---
 
-## 🧾 Summary & Conclusion
+## Summary & Conclusion
 
 This exercise revealed how much **valuable data** my personal laptop holds and how easily it could be compromised without proper security habits.  
 From school projects to personal credentials, every piece of data carries potential risk.
@@ -138,4 +138,4 @@ The goal isn’t to be “unhackable,” but to be **resilient** — to make att
 
 ---
 
-✅ *End of Report*
+ *End of Report*
