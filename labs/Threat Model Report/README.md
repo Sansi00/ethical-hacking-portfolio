@@ -1,256 +1,141 @@
-Threat Model Report – Personal Computer  
+# 🛡️ Threat Model Report – Personal Computer
 
-By: Sansi Pokharel 
-Date: 09/21/2025 
+**Author:** Sansi Pokharel  
+**Date:** 09/21/2025  
 
-The objective of this lab is to develop a threat model for my personal computer and see how I can enhance the security of the system. In this lab, you will see the documentation for the following:  
+---
 
-Introduction to Threat Modelling:  
+## 🧭 Objective
+The objective of this lab is to develop a threat model for my personal computer and identify ways to enhance its overall security.  
+This documentation includes an introduction to threat modeling, identification of assets, threats, and actors, risk assessment, and mitigation strategies.
 
- 
+---
 
-Threat modelling is a systematic process of identifying the threats, vulnerabilities, and risk associated with your system and designing ways to mitigate or tackle them. It is important in computer security because you assess various components, interactions, and attack vectors to understand what potential vulnerabilities could be putting your system as a target.  
+## 🔍 Introduction to Threat Modeling
 
- 
+Threat modeling is a **systematic process** of identifying threats, vulnerabilities, and risks associated with a system, and then designing measures to mitigate or manage them.  
+It plays a crucial role in maintaining the **CIA triad** — Confidentiality, Integrity, and Availability.
 
-The process helps ensure that the three pillars of cybersecurity Confidentiality, Integrity, and Availability (CIA) are maintained. 
+**Five Key Elements of Threat Modeling:**
+1. **Findings (Threats):** Potential vulnerabilities or malicious actions.  
+2. **Kill Chain:** Steps an attacker takes to exploit a system.  
+3. **Single Asset Value:** Worth of one specific data element.  
+4. **Organizational Asset Value:** The importance of the system within its environment.  
+5. **Estimated Risk:** Likelihood and impact of potential threats.
 
- 
+---
 
-There are five elements of threat modelling: 
+## 💻 Identifying Assets
 
-Findings (Threats): Possible malicious actions or vulnerabilities. 
+**System Overview:**
+- **Device:** Razer Blade (2019 Model)  
+- **Processor:** Intel i5  
+- **Operating System:** Windows 11  
 
-Kill Chain: Steps an attacker follows to exploit the system. 
+**Personal Assets Stored:**
+- **Documents:** Assignments, resumes, IDs, financial records, certifications  
+- **Professional Data:** Work files, code repositories, confidential communications  
+- **Credentials:** Saved passwords, autofill data, browsing history  
+- **Personal Media:** Photos, videos, personal messages revealing location/contacts  
+- **System Information:** Installed applications, network configurations, logs  
 
-Single Asset Value: Worth of one specific system or data element. 
+Each asset has varying sensitivity and requires **tailored protection** based on its confidentiality level.
 
-Organizational Asset Value: Overall, the importance of the system within the user’s environment. 
+---
 
-Estimated Risk: Likelihood and impact of potential attacks. 
+## 🧠 Identifying Threat Actors
 
- 
+Threat actors are entities capable of exploiting vulnerabilities.  
+For my system, the primary threat actors include:
 
-Identifying Assets:  
+- **Cybercriminals:** Seek financial or credential data for profit  
+- **Malware Authors:** Deploy ransomware/spyware for extortion or surveillance  
+- **Insiders/Acquaintances:** Individuals with physical access who might steal/tamper with data  
+- **Hacktivists:** Unlikely but possible ideological targeting  
+- **Opportunistic Attackers:** Exploit general vulnerabilities like phishing or weak passwords  
 
-System Overview: 
+**Common Motives:**
+- Financial gain  
+- Revenge or personal grievance  
+- Data theft/resale  
+- Defamation or social harm  
+- Unauthorized access or curiosity  
 
-Hardware: Razer Blade (2019 model) 
+---
 
-Processor: Intel i5 
+## ⚔️ Identifying Attack Vectors
 
-Operating System: Windows 11 
+Attack vectors are the **pathways** used by threat actors to compromise a system.
 
-Personal Assets Stored: 
+| **Attack Vector** | **Description** |
+|--------------------|-----------------|
+| Phishing Emails | Fake messages prompting clicks or credential entry |
+| Malicious Downloads | Compromised software or attachments |
+| Unsecured Networks | Using public Wi-Fi without encryption |
+| Outdated Software | Exploitable known vulnerabilities |
+| Weak or Reused Passwords | Enables brute-force or credential stuffing |
+| Physical Theft | Device stolen or tampered with |
+| Browser Exploits | Drive-by downloads or session hijacking |
+| Poor Configuration | Misconfigured firewalls, unpatched antivirus |
 
-Documents: College assignments, resumes, identification, financial records, and certifications. 
+---
 
-Professional Data: Work-related files, code repositories, and confidential communications. 
+## ⚖️ Risk Assessment
 
-Credentials: Saved passwords, browsing history, autofill data. 
+| **Threat** | **Likelihood** | **Impact** | **Overall Risk** |
+|-------------|----------------|-------------|------------------|
+| Phishing Attack | High | Medium | High |
+| Malware Infection | Medium | High | High |
+| Data Theft (Physical) | Medium | High | Medium-High |
+| Password Compromise | High | High | Critical |
+| Outdated Software Exploit | Medium | Medium | Medium |
+| Ransomware | Low | Critical | Medium |
+| Social Engineering | High | Medium | High |
 
-Personal Media: Photos, videos, and personal communications revealing location and contacts. 
+---
 
-System Information: Installed applications, network configurations, OS logs, and metadata. 
+## 🧩 Mitigation Strategies
 
-Each of these assets carries different levels of confidentiality and sensitivity, 		requiring tailored protection. 
-
-Identifying Threat Actors:  
-
-Threat actors represent individuals or entities that may exploit system weaknesses. 	For my personal setup, the likely threat actors are: 
-
-Cybercriminals: Seeking financial data or credentials for profit. 
-
-Malware Authors: Distributing ransomware or spyware for extortion or surveillance. 
-
-Insiders/Acquaintances: People with physical access who could tamper with or steal data. 
-
-Hacktivists: Less likely but could target ideological beliefs or public accounts. 
-
-Opportunistic Attackers: Using phishing or general malware targeting common vulnerabilities. 
-
-Common Attack Motives: 
-
-Financial gain 
-
-Revenge or personal grievance 
-
-Data theft and resale 
-
-Defamation or social harm 
-
-Unauthorized access or curiosity 
-
- 
-
- 
-
- 
-
-Identifying Attack Vectors:  
-
- 
-
-Attack vectors mean what methods/vulnerabilities could be used to attack a system. Since my threat actors are distinct, my attack vectors would look something like this:  
-
-Attack vectors are the pathways used by threat actors to exploit vulnerabilities. For my system, these include: 
-
-Phishing Emails: Fake messages prompting clicks or credential entry. 
-
-Malicious Downloads: Compromised software or attachments. 
-
-Unsecured Networks: Using public Wi-Fi without encryption. 
-
-Outdated Software: Allowing known exploits to be used. 
-
-Weak Passwords or Reuse: Enabling brute-force or credential stuffing. 
-
-Physical Theft: Unattended devices can be stolen or tampered with. 
-
-Browser Exploits: Drive-by downloads or session hijacking. 
-
-Poor Configuration: Misconfigured firewalls or lack of antivirus updates. 
-
- 
-
-Risk Assessment:		 
-
-Threat 
-
-Likelihood 
-
-Impact 
-
-Overall Risk 
-
-Phishing attack 
-
-High 
-
-Medium 
-
-High 
-
-Malware infection 
-
-Medium 
-
-High 
-
-High 
-
-Data theft (physical) 
-
-Medium 
-
-High 
-
-Medium-High 
-
-Password compromise 
-
-High 
-
-High 
-
-Critical 
-
-Outdated software exploit 
-
-Medium 
-
-Medium 
-
-Medium 
-
-Ransomware 
-
-Low 
-
-Critical 
-
-Medium 
-
-Social engineering 
-
-High 
-
-Medium 
-
-High 
-
- 
-
-Mitigation Strategies:  
-
-To reduce these risks, I implement both technical and behavioral controls: 
-
-Technical Controls 
-
-Enable Multi-Factor Authentication (MFA) on all key accounts. 
-
-Use VPN when connecting to public networks. 
-
-Encrypt sensitive files and use strong, unique passwords managed via a Password Manager. 
-
-Keep the OS and antivirus software regularly updated. 
-
-Enable Windows Defender Firewall and review its rules. 
-
-Regularly back up critical data to an encrypted external drive or cloud. 
-
-Use BitLocker for full-disk encryption. 
-
-Behavioral Controls 
-
-Avoid downloading software from untrusted sources. 
-
-Verify email links and attachments before clicking. 
-
-Do not reuse passwords or share credentials. 
-
-Be cautious of social engineering attempts. 
-
-Maintain awareness of new security updates and patches. 
-
- 
-
-Recommendations 
-
-To further improve long-term resilience: 
-
-Conduct monthly security scans and vulnerability checks. 
-
-Review system permissions and remove unnecessary applications. 
-
-Use threat intelligence feeds or tools (e.g., VirusTotal) to check suspicious files. 
-
-Implement secure cloud practices like enabling 2FA on Google Drive or OneDrive. 
-
-Educate others who may use the same network about cybersecurity hygiene. 
-
- 
-
- 
-
-Summary and Conclusion  
-
- 
-
-Going through this threat modeling process made me realize how much personal and professional information is stored on my laptop and how easily it could be compromised if I’m not careful. From my assignments and work projects to my passwords, photos, and even my location history, everything has some level of value that could be targeted by attackers. 
-
- 
-
-What stood out the most is that security isn’t just about having antivirus software or a strong password; it’s about habits. Small things like avoiding suspicious links, keeping software updated, or using MFA consistently make a huge difference. I also learned that risks change over time, so keeping my system safe means staying aware and adapting as new threats appear. 
-
- 
-
-In the end, this lab helped me see my personal computer not just as a device I use every day, but as something that needs to be protected with intention. The goal isn’t to be completely “unhackable,” but to make it hard enough for attackers that they move on, and to make sure that if something does happen, I can recover quickly with minimal loss. 
-
- 
-
- 
-
- 
-
- 
+### 🛠️ Technical Controls
+- Enable **Multi-Factor Authentication (MFA)** on all major accounts  
+- Use a **VPN** when on public or shared networks  
+- Encrypt sensitive files and use a **Password Manager**  
+- Keep **OS and antivirus** software up to date  
+- Enable **Windows Defender Firewall** and review rules regularly  
+- Perform **routine backups** to encrypted drives or cloud  
+- Use **BitLocker** for full-disk encryption  
+
+### 🧍 Behavioral Controls
+- Avoid untrusted or pirated software downloads  
+- Verify links and attachments before clicking  
+- Don’t reuse passwords or share credentials  
+- Stay alert for social engineering and scams  
+- Keep up with the latest security patches and awareness
+
+---
+
+## 💡 Recommendations
+To strengthen long-term resilience:
+- Conduct **monthly vulnerability scans**  
+- Review system permissions and remove unnecessary software  
+- Use **threat intelligence tools** (e.g., VirusTotal) to analyze suspicious files  
+- Enable **2FA** on all cloud platforms (Google Drive, OneDrive, etc.)  
+- Educate others sharing your network on basic cybersecurity hygiene  
+
+---
+
+## 🧾 Summary & Conclusion
+
+This exercise revealed how much **valuable data** my personal laptop holds and how easily it could be compromised without proper security habits.  
+From school projects to personal credentials, every piece of data carries potential risk.
+
+Security isn’t just about tools — it’s about **consistent habits**.  
+Simple actions like keeping software updated, avoiding suspicious links, and using MFA can dramatically reduce threats.  
+I also learned that risks evolve, meaning **security is an ongoing process**, not a one-time fix.
+
+In conclusion, I now see my laptop not merely as a device, but as a **digital extension of my identity**.  
+The goal isn’t to be “unhackable,” but to be **resilient** — to make attacks costly, recovery quick, and damage minimal.
+
+---
+
+✅ *End of Report*
