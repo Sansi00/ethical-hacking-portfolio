@@ -5,7 +5,7 @@ This repository documents my hands-on ethical hacking and security labs: VM setu
 ## Labs
 | Lab | Focus | Link |
 |-----|-------|------|
-| Lab 1 | VirtualBox Setup & Connectivity | <a href="https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/lab01-VirtualBox"></a> |
+| Lab 1 | VirtualBox Setup & Connectivity | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/lab01-VirtualBox 
 | Lab 2 | Nmap Reconnaissance | labs/lab2_nmap/README.md |
 | Lab 3 | Exploitation & Post-Exploit | labs/lab3_exploit/README.md |
 
@@ -13,6 +13,6 @@ This repository documents my hands-on ethical hacking and security labs: VM setu
 
 ## Contact
 **Sansi Pokharel** — sansi@usf.edu  
-LinkedIn: https://linkedin.com/in/yourprofile | GitHub: https://github.com/<your-username>
+LinkedIn: https://linkedin.com/in/yourprofile | GitHub: https://github.com/Sansi00
 
 > Full artifacts (pcaps, VM images) are available via OneDrive links inside each lab README to avoid committing large binary files to GitHub.
