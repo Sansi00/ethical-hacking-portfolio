@@ -28,7 +28,7 @@ The activities included DNS lookups, WHOIS queries, DomainTools analysis, and ex
 ---
 
 ###  File Included
-- [`annotated-LAB2.pdf`](annotated-LAB2.pdf): Full annotated report.
+- [`lab2report`](lab2report.pdf): Full annotated report.
 
 ---
 
