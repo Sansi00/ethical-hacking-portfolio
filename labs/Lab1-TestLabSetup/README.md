@@ -20,4 +20,4 @@ Verify inter-VM connectivity using ICMP (ping).
 | **Network Mode:** | Bridged + Host-Only Adapter |
 
 ---
-
+Find the screenshots of my home lab setup in the pdf
