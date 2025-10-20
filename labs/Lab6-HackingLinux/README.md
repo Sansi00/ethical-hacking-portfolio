@@ -1,6 +1,6 @@
 # Lab 06 — Hacking LINUX
 
-**Compiled lab report (PDF):** [Lab 06 — Hacking LINUX (PDF)] (lab6report.pdf)
+**Compiled lab report (PDF):** (lab6report.pdf)
 
 ---
 
