@@ -5,7 +5,7 @@ This repository documents my hands-on ethical hacking and security labs: VM setu
 ## Labs
 | Lab | Focus | Link |
 |-----|-------|------|
-| Lab 1 | VirtualBox Setup & Connectivity | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/lab01-VirtualBox 
+| Lab 1 | VirtualBox Setup & Connectivity | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/Lab1-TestLabSetup |
 | Lab 2 | Reconnaissance | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/Lab2-Reconnaissance |
 | Lab 3 | Scanning and Enumeration | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/Lab3-Scanning%20and%20Enumeration |
 | Lab 4 | Threat Modeling | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/Threat%20Model%20Report |
