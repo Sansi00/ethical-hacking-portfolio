@@ -1,8 +1,6 @@
 # Cybersecurity Lab 2: Domain Reconnaissance on HomeDepot.com
 
-**Author:** Sansi Pokharel  
-**Course:** [Insert course name if relevant]  
-**Date:** [Insert date]
+**Author:** Sansi Pokharel    
 
 ---
 
