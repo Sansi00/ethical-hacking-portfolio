@@ -23,7 +23,7 @@ sudo nmap -sS 192.168.1.10
 
 A compiled version of this lab with detailed commands, outputs, and analysis is available:
 
-**Download PDF:** [Lab 3 — Scanning and Enumeration (PDF)](lab3/lab3report.pdf)
+Download PDF: [Lab 3 Report (PDF)](lab3/lab3report.pdf)
 
 > If the PDF doesn't render in your browser, right-click the link and choose "Save link as..." to download.
 
