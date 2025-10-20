@@ -22,12 +22,3 @@ Verify inter-VM connectivity using ICMP (ping).
 
 ---
 
-## Steps & Commands
-
-### 1️⃣ Confirm VMs are installed  
-Take a screenshot of the VirtualBox Manager showing all three VMs.  
-Save it as `screenshots/vbox_overview.png`.
-
-### 2️⃣ Ping Windows target from Kali
-```bash
-ping -c 6 10.0.2.5 | tee logs/ping_windows.txt
