@@ -6,7 +6,7 @@ This repository documents my hands-on ethical hacking and security labs: VM setu
 | Lab | Focus | Link |
 |-----|-------|------|
 | Lab 1 | VirtualBox Setup & Connectivity | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/lab01-VirtualBox 
-| Lab 2 | Nmap Reconnaissance | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/Lab2-Footprinting |
+| Lab 2 | Footprinting | https://github.com/Sansi00/ethical-hacking-portfolio/tree/main/labs/Lab2-Footprinting |
 | Lab 3 | Exploitation & Post-Exploit | labs/lab3_exploit/README.md |
 | Lab 4 | Threat Modeling | labs/Threat Model Report/README.md |
 
